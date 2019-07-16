@@ -81,3 +81,12 @@ for character in input_string:
     characters[character] = characters[character] + 1
 
 print(characters)
+
+
+#string formatting 
+#The f before the string stands for f-strings or formatted strings and 
+# allow us to put replacement fields {} with variable names inside our strings
+name = "Grey Worm"
+age = 9
+
+print(f"My name is {name} and I am {age} years old")
