@@ -44,3 +44,12 @@ for i in range(1,21):
     if i in numTaken:
         continue
     print(i)
+    list_a = ["a","b","c","d"] 
+list_b = [1,2,3,4,5,6]
+
+# Joining list_b to list_a
+
+list_a.extend(list_b)
+
+print(list_a) # this will print ["a","b","c","d",1,2,3,4,5,6]
+print(list_b) # this will print [1,2,3,4,5,6]
