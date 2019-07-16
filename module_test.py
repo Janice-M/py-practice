@@ -53,3 +53,11 @@ list_a.extend(list_b)
 
 print(list_a) # this will print ["a","b","c","d",1,2,3,4,5,6]
 print(list_b) # this will print [1,2,3,4,5,6]
+# Creating empty dictionaries
+my_dict = {}
+my_dict = dict()
+
+# Creating a dictionary with keys and values
+my_cat = {'name':' Ser Pounce','age':18, 'color':'black'}
+cat_name = my_cat['name']
+print(cat_name) # ' Ser Pounce'
