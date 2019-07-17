@@ -111,3 +111,14 @@ colon = "James"
 sage = 19
 
 print("My name is " + colon + " I am " + str(sage) + " years old")
+
+#A slice statement is enclosed with [] square brackets and has two parts first is the position where to start slicing 
+# and second is the position to stop but not including that position.
+salamu = 'Hello, Moringa!'
+
+part_one = salamu[0:5]
+print(part_one)
+
+number = [1,2,3,4,5,6,7,8,9]
+four_digits = number[:4]
+print(four_digits)
