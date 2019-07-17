@@ -106,3 +106,8 @@ print( number_string.isdecimal() )
 print( tabbs.isspace() )
 print( titles.istitle() )
 print( false_titles.istitle())
+
+colon = "James"
+sage = 19
+
+print("My name is " + colon + " I am " + str(sage) + " years old")
